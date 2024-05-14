@@ -17,5 +17,5 @@ variable "myresourcegroupname" {
 }
 variable "myresourcegrouplocation" {
   type = string
-  default = "Canadacentral1"
+  default = "canadacentral"
 }
