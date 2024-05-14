@@ -4,10 +4,6 @@ resource "azurerm_resource_group" "regisresourcegroup" {
 }
 
 
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "example" {
   name     = "example-lb"
   location = "West Europe"
