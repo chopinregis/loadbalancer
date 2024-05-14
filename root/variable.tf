@@ -1,7 +1,6 @@
 variable "subscription_id"{
   type=string
 }
-
 variable "client_id"{
   type=string
 }
@@ -15,4 +14,8 @@ variable "tenant_id"{
 variable "myresourcegroupname" {
   type = string
   default = "regisresourcegroup"
+}
+variable "myresourcegrouplocation" {
+  type = string
+  default = "Canadacentral1"
 }
