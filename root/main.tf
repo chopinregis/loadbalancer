@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "regisresourcegroup" {
-  name     = "mcit_resource_group_regis"
+  name     = var.myr
   location = "canadacentral"
 }
