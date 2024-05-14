@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "regisresourcegroup" {
 
 resource "azurerm_resource_group" "example" {
   name     = "example-lb"
-  location = "West Europe"
+  location = var.myresourcegrouplocation
 }
 
 module "mylb" {
